@@ -2,8 +2,8 @@ import os
 import json
 import requests
 
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-MISTRAL_API_KEY = os.environ["MISTRAL_API_KEY"]
+TELEGRAM_TOKEN = "8906882422:AAHHopv0cXz2oQcORvs3zG--Xc4-WliWn0I"
+MISTRAL_API_KEY = "FJ7w07ovwZlpqYoflaJbjf9CphGIRXOm"
 STATE_FILE = "last_update.json"
 
 TG_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
